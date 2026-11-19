@@ -1,0 +1,19 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+sqlalchemy>=2.0.36
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+pandas>=2.2.0
+numpy>=2.1.0
+scikit-learn>=1.5.0
+xgboost>=2.1.0
+lightgbm>=4.5.0
+shap>=0.46.0
+opencv-python-headless>=4.10.0
+Pillow>=11.0.0
+joblib>=1.4.0
+aiofiles>=24.1.0
+httpx>=0.28.0
+# Optional YOLO: pip install ultralytics
+# Then place weights at models/yolo_road_damage.pt
